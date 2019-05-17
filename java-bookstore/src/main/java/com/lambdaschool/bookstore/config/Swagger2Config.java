@@ -27,7 +27,7 @@ public class Swagger2Config extends WebMvcConfigurerAdapter
 
     private ApiInfo apiEndPointsInfo()
     {
-        return new ApiInfoBuilder().title("User OAuth2 Example").description("User OAuth2 Example").contact(new Contact("John Mitchell", "http://www.lambdaschool.com", "john@lambdaschool.com")).license("MIT").licenseUrl("https://github.com/LambdaSchool/java-crudysnacks/blob/master/LICENSE").version("1.0.0").build();
+        return new ApiInfoBuilder().title("User OAuth2 Example").description("User OAuth2 Example").contact(new Contact("Dustin B", "http://www.lambdaschool.com", "dustin@email.com")).license("MIT").licenseUrl("https://github.com/LambdaSchool/java-crudysnacks/blob/master/LICENSE").version("1.0.0").build();
     }
 
     @Override
